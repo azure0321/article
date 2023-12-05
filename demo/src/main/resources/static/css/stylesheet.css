@@ -1,0 +1,83 @@
+#login{width:240px;
+       padding:5px;
+       height:120px;
+       margin-top:5px;
+       text-align: left;}
+#right{height:950px;
+       margin-top:20px;
+       margin-left:200px;}    
+#nav{height:20px;
+     background-color:thistle;}
+#login-board{width:250px;
+             height:120px;
+             background-color: peachpuff;}
+#login-board1{width:250px;
+              height:120px;
+              background-color: peachpuff;}             
+#left{height:950px;
+      width:250px;
+      border-right:ridge;}
+body{background-color: antiquewhite;
+     margin:0px;}
+#content{height:930px;
+         width:800px;
+         text-align: center;
+         margin-top:20px;}
+#write{background-color:peachpuff;
+       width:100px;
+       float:right;}
+#delete{background-color:peachpuff;
+        width:70px;}
+#answer{background-color:peachpuff;
+        width:90px;}
+#total{display:flex;}
+#registerlogin{width:250px;
+               height:120px;
+               text-align: center;
+               padding-top:10px;
+               background-color:peachpuff;}
+#register{background-color:antiquewhite;}
+#register1{background-color: antiquewhite;}
+#login{background-color: antiquewhite;}
+#login1{background-color: antiquewhite;}
+#logout{background-color:antiquewhite;}
+#logout1{background-color:antiquewhite;}
+#update{background-color:peachpuff;}
+#welcome{width:250px;
+         height:60px;
+         text-align: center;
+         background-color:peachpuff;}
+#notwelcome{width:250px;
+            height:60px;
+            text-align: center;
+            background-color:peachpuff;}
+h7{width:170px;}
+#maintitle{height:110px;
+           color:white;
+           text-align:center;
+           margin:0px;
+           padding-top:20px;
+           background-color: rosybrown;}
+html{margin:0px;}
+h1{margin:0px;}
+h4{text-align: center;
+   margin:0px;}
+p{text-align:center;
+  margin:0px;}
+#reo{border:solid 2px black;
+     margin-top:5px;}
+#profile{background-color:peachpuff;}
+#newwrite{width:800px;
+          text-align: center;}
+#reviewtitle{background-color:rosybrown;
+             color:white;
+             text-align: center;}
+#review1{text-align: center;}
+#review{text-align:right;}
+#answer{width:70px;
+        background-color: peachpuff;
+        float:left;}
+h5{text-align: left;}
+#reviewercontent{width:800px;
+                 background-color: peachpuff;}
+#reviewerseq{text-align:left;}                                          

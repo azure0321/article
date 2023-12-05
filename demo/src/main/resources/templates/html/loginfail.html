@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나영블로그</title>
+    <link rel="stylesheet" th:href="@{/css/stylesheet.css}">
+</head>
+<div th:replace="html/blog.html::maintitle" id="maintitle"></div>
+<nav th:replace="html/blog.html::nav" id="nav"></nav>
+    <div id="total">
+        <div id = "left">
+            <img src="/image/reo1.jpg" width="245px", height="245px" id="reo">
+            <div id="profile">
+                <h4>나영 프로필</h4><hr>
+                <p>세계여행중🌏✈️<br>
+                레오 & 오즈 고양이 집사😽</p>
+            </div><br>
+            <div id = "login-board">
+                <h7>다시 로그인하시거나<br> 
+                    회원이 아닐 경우<br> 
+                    회원가입을 하십시오.</h7><br>   
+                <form action="/login">
+                    <button type="submit" id="login1">로그인</button>
+                </form>
+                <form action="/register">
+                    <button type="submit" id="register1">회원가입</button>
+                </form>
+            </div><br>
+            <img src="/image/weather.png" width="90px", height="90px" id="weather"><img src="/image/gwangju.png" width="160px", height="120px" id="gwangju"><br><br>
+            <img src="/image/december.png" width="125px", height="125px" id="december"><img src="/image/2023.png" width="125px", height="120px" id="2023">
+        </div>
+        <div th:replace="html/blog.html::right" id="right">
+            <div th:replace="html/blog.html::content" id="content"></div>
+        </div>
+    </div>
+</html>           
